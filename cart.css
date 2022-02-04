@@ -1,0 +1,158 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding: 10px 90px;
+    box-sizing:border-box;
+    background:rgba(245, 237, 237, 0.822);
+}
+
+ #caption{
+    font-weight: bolder;
+    height:80px;
+    padding:22px 20px;
+    color: black;
+    font-size: 3.5rem;
+    float:left;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+nav ul li a{
+
+    line-height: 80px;
+    color:black;
+    padding:12px 30px;
+    text-decoration: none;
+    font-size:15px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    background:rgb(219, 140, 140);
+    border-radius:6px;
+}
+
+#active{
+    background:rgb(252, 102, 102);
+    color:black;
+    border-radius:6px;
+    line-height: 20px;
+    margin-top: 20px;
+
+}
+#shopcart{
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    color:brown;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+#picture-cart{
+    width:100%;
+    height:30vh;
+    background: url('images/cart4.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+   
+}
+  #customers{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding-left:40px;
+    padding-right:60px;
+    box-sizing:border-box;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+
+  }
+
+  #customers td, #customers th {
+    border: 1px solid rgb(112, 111, 111);
+    padding: 8px;
+  }
+
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: rgb(196, 193, 193);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #d67c4b;
+    color: white;
+  }
+
+
+
+
+  .table{
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 23px;
+	margin-bottom: 23px;
+    margin-left:140px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.table td, .table th{
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 16px;
+	width: 95px;
+}
+.table th{
+	background-color: #039290;
+	color: #ffffff;
+}
+.table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+.qty{
+	width: 65px;
+	height: 21px;
+	border-radius: 5px;
+}
+
+.btno{
+    width:20%;
+    height:120px;
+}
+#back2{
+    margin-top:1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius:.5rem;
+    color:#fff;
+    background: rgb(161, 65, 65);
+    font-size: 1.5rem;
+    cursor:pointer;
+    font-weight: 500;
+    border: 1px solid;
+    box-shadow: 5px 8px rgb(126, 124, 124);
+    margin-left:140px;
+}
